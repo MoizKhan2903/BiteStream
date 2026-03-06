@@ -1,0 +1,31 @@
+/* Theme variables (Zomato-like) */
+:root {
+	--bg: #ffffff;
+	--surface: #ffffff;
+	--text: #222222;
+	--muted: #6b7280;
+
+	--primary: #ff3b30; /* Zomato-ish red */
+	--primary-600: #e3332a;
+	--accent: #ff8a65;
+
+	--input-bg: #f7f7f8;
+	--input-border: #e6e6e9;
+	--brand: #ff3b30;
+
+	--chip-bg: rgba(255,59,48,0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #0b0b0c;
+		--surface: #0f0f10;
+		--text: #f2f2f3;
+		--muted: #9aa0a6;
+
+		--input-bg: #111214;
+		--input-border: #1a1a1c;
+		--chip-bg: rgba(255,59,48,0.12);
+	}
+}
+
