@@ -1,1 +1,37 @@
-// videos photos ke liye websitite => pexels.com 
+// # 🍔 BiteStream - Food Reel Sharing Platform
+
+// BiteStream is a full-stack MERN (MongoDB, Express, React, Node.js) application designed for food enthusiasts to discover and share culinary inspiration through short-form video reels.
+
+// The platform features a dual-user ecosystem where general users can browse a dynamic feed of food content, while authenticated creators have the power to upload and manage their own reels.
+
+// ## 🚀 Features
+
+// - **Dynamic Video Feed:** Seamlessly scroll through a curated collection of food reels.
+// - **Dual-Role System:** - **Viewers:** Can browse, view, and interact with the food feed.
+//   - **Creators (Auth):** Access to a private dashboard to upload, edit, and delete their video content.
+// - **Secure Authentication:** Implemented using **JWT (JSON Web Tokens)** and **bcrypt** for secure password hashing.
+// - **Role-Based Access Control (RBAC):** Middleware-protected routes ensure only authorized users can manage content.
+// - **Responsive Design:** Optimized for a smooth viewing experience across mobile, tablet, and desktop devices.
+
+// ## 🛠️ Tech Stack
+
+// **Frontend:**
+// - React.js
+// - Tailwind CSS (or CSS Modules)
+// - Axios for API communication
+// - React Router for navigation
+
+// **Backend:**
+// - Node.js & Express.js
+// - MongoDB & Mongoose (ODM)
+// - JWT for secure authorization
+// - Multer/Cloudinary (for video storage handling)
+
+// ## 📂 Project Structure
+
+// ```text
+// BiteStream/
+// ├── frontend/        # React application (Vite/CRA)
+// ├── backend/         # Node.js & Express server
+// ├── .gitignore       # Protection for node_modules and .env files
+// └── LICENSE          # MIT License
